@@ -94,24 +94,24 @@ P(θ | data) ∝ P(data | θ) · P(θ)
 
 #### SED Fit
 
-![SED Mrk876](./SED_manyrealizations_Mrk876.pdf)
+![SED Mrk876](./images/SED_Mrk876.png)
 
 - Strong AGN + starburst contribution
-- Log-likelihood: **-276.2** :contentReference[oaicite:4]{index=4}
+- Log-likelihood: **-276.2**
 - More complex and harder to fit
 
 #### Residual Analysis
 
 - Large deviations at low & high frequencies
 - Example:
-  - High-frequency residuals ~ +9 → strong mismatch :contentReference[oaicite:5]{index=5}
+  - High-frequency residuals ~ +9 → strong mismatch
 
 #### Parameter Insights
 
 - Stellar Mass: ~10¹¹ M☉
 - SFR: very high (~227)
 - High IR luminosity
-- AGN fraction ~93% :contentReference[oaicite:6]{index=6}
+- AGN fraction ~93%
 
 ---
 
@@ -121,11 +121,11 @@ P(θ | data) ∝ P(data | θ) · P(θ)
 
 #### Mrk493
 
-![Corner Plot Mrk493](./PDFtriangle_10pars.pdf)
+![Corner Plot Mrk493](./images/Corner_Plot_Mrk493.png)
 
 #### Mrk876
 
-![Corner Plot Mrk876](./PDFtriangle_10pars.pdf)
+![Corner Plot Mrk876](./images/Corner_Plot_Mrk876.png)
 
 These plots show:
 
@@ -135,7 +135,7 @@ These plots show:
 
 Example:
 - Strong parameter constraints visible in posterior peaks
-- Some parameters show degeneracy due to model structure :contentReference[oaicite:7]{index=7}
+- Some parameters show degeneracy due to model structure
 
 ---
 
