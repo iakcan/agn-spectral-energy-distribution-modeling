@@ -169,7 +169,23 @@ Example:
 
 ---
 
+## Implementation
+
+The model implementation is available in the `notebooks/` directory.
+
+---
+
+## Reference Paper
+
+This work is based on the AGNfitter model:
+
+Calistro Rivera et al. (2016)  
+AGNfitter: A Bayesian MCMC approach to fitting spectral energy distributions of AGN
+
+In this project, the original model is adapted and applied to real observational datasets (Mrk493 and Mrk876) to evaluate its performance in practical scenarios.
+
+--- 
+
 ## Author
 
 **Irem Akcan**  
-M.Sc. Data Science | Software Project Manager | Agile Coach
