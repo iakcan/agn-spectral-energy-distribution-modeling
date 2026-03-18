@@ -164,7 +164,7 @@ Example:
 
 ## ⚡ Implementation
 
-The model implementation is available in the `notebooks/` directory.
+The model implementation is available in the `notebooks/agn_modelling` directory.
 
 ---
 
