@@ -22,7 +22,14 @@ The dataset includes multi-wavelength observations across:
 Each entry contains flux values and uncertainties across spectral bands.
 
 👉 Dataset sample:  
-:contentReference[oaicite:0]{index=0}
+[View full dataset](./data/Dataset_catalog_example.txt)
+
+### Example
+
+| ID     | z     | FUV | NUV | IR   |
+|--------|------|-----|-----|------|
+| Mrk493 | 0.031 | 1.62 | 1.89 | 12.18 |
+| Mrk876 | 0.129 | 2.89 | 2.98 | 9.57 |
 
 ---
 
@@ -32,9 +39,7 @@ Each entry contains flux values and uncertainties across spectral bands.
 
 The total emission is modeled as:
 
-\[
-F_{total} = F_{BBB} + F_{torus} + F_{stellar} + F_{cold\ dust}
-\]
+F_total = F_BBB + F_torus + F_stellar + F_cold-dust
 
 Components:
 
@@ -47,9 +52,9 @@ Components:
 
 ### Bayesian Framework
 
-\[
-P(\theta | data) \propto P(data | \theta) \cdot P(\theta)
-\]
+**Posterior ∝ Likelihood × Prior**
+
+P(θ | data) ∝ P(data | θ) · P(θ)
 
 - MCMC Sampling (emcee)
 - Posterior estimation
