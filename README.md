@@ -70,24 +70,23 @@ P(θ | data) ∝ P(data | θ) · P(θ)
 
 #### SED Fit
 
-![SED Mrk493](./SED_manyrealizations_Mrk493.pdf)
+![SED Mrk493](./images/SED_Mrk493.png)
 
 - Excellent fit across optical and IR regions
-- Log-likelihood: **-22.8** :contentReference[oaicite:1]{index=1}
+- Log-likelihood: **-22.8**
 - Residuals centered around zero → strong model performance
 
 #### Residual Analysis
 
 - Minor deviations at low/high frequencies
 - Generally stable fit across spectrum  
-:contentReference[oaicite:2]{index=2}
 
 #### Parameter Insights
 
 - Metallicity: ~1.20
 - Stellar Age: ~9.5 Gyr
 - Dust Temp: ~32 K
-- Strong AGN contribution (~86%) :contentReference[oaicite:3]{index=3}
+- Strong AGN contribution (~86%)
 
 ---
 
