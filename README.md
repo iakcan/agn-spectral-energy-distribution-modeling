@@ -4,7 +4,7 @@ This project implements and evaluates a Bayesian SED-fitting approach for Active
 
 ---
 
-## Project Overview
+## 🚀 Project Overview
 
 Active Galactic Nuclei (AGN) are powered by accretion onto supermassive black holes and emit across the entire electromagnetic spectrum.
 
@@ -12,7 +12,7 @@ This project models AGN Spectral Energy Distributions (SEDs) by decomposing obse
 
 ---
 
-## Dataset
+## 📂 Dataset
 
 The dataset includes multi-wavelength observations across:
 
@@ -33,7 +33,7 @@ Each entry contains flux values and uncertainties across spectral bands.
 
 ---
 
-## Methodology
+## 🔬 Methodology
 
 ### SED Decomposition
 
@@ -48,8 +48,6 @@ Components:
 - Stellar Population
 - Starburst (Cold Dust)
 
----
-
 ### Bayesian Framework
 
 **Posterior ∝ Likelihood × Prior**
@@ -62,9 +60,7 @@ P(θ | data) ∝ P(data | θ) · P(θ)
 
 ---
 
-## Results
-
----
+## 📊 Results
 
 ### 🔵 Mrk493 — Seyfert 1 Galaxy
 
@@ -87,8 +83,6 @@ P(θ | data) ∝ P(data | θ) · P(θ)
 - Stellar Age: ~9.5 Gyr
 - Dust Temp: ~32 K
 - Strong AGN contribution (~86%)
-
----
 
 ### 🔴 Mrk876 — Quasar-like AGN
 
@@ -115,7 +109,7 @@ P(θ | data) ∝ P(data | θ) · P(θ)
 
 ---
 
-## Posterior Analysis (Bayesian Insight)
+## 🔗 Posterior Analysis (Corner Plots)
 
 ### Corner Plots
 
@@ -139,7 +133,7 @@ Example:
 
 ---
 
-## Key Insights
+## 🧠 Key Insights
 
 - Bayesian MCMC effectively captures uncertainty and parameter degeneracy
 - AGN-dominated systems (Mrk493) are easier to model
@@ -150,17 +144,16 @@ Example:
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- Python
-- NumPy / SciPy
-- Matplotlib
-- emcee (MCMC)
-- AGNfitter
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 
 ---
 
-## Future Work
+## 🔮 Future Work
 
 - Improve high-frequency modeling
 - Extend dataset size
@@ -169,13 +162,13 @@ Example:
 
 ---
 
-## Implementation
+## ⚡ Implementation
 
 The model implementation is available in the `notebooks/` directory.
 
 ---
 
-## Reference Paper
+## 📚 Reference Paper
 
 This work is based on the AGNfitter model:
 
@@ -186,6 +179,6 @@ In this project, the original model is adapted and applied to real observational
 
 --- 
 
-## Author
+## 👩‍💻 Author
 
 **Irem Akcan**  
